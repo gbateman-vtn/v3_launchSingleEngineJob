@@ -1,0 +1,39 @@
+query  {
+  engineResults(jobId:"YOUR_JOB_ID") {
+    records {
+      tdoId
+      engineId
+      startOffsetMs
+      stopOffsetMs
+      jsondata
+      assetId
+  }
+}
+
+OR
+
+
+query getAssets {
+  temporalDataObject(id: "123456789") {
+    primaryAsset(assetType: "media") {
+      id
+      signedUri
+    }
+    assets {
+      records {
+        sourceData {
+          engine {
+            id
+            name
+          }
+        }        
+        id
+        createdDateTime
+        assetType
+        signedUri
+      }
+    }
+  }
+}
+
+
