@@ -1,7 +1,7 @@
 mutation simpleFaceboxJob{
     launchSingleEngineJob(input: {
       engineId: "e62665c7-f855-4168-8aa3-668a7b0a50ea"
-      #targetId: 123456789
+      targetId: 123456789
       uploadUrl: "https://nirel-rt-test.s3.amazonaws.com/bill_gates_2min-11sec.mp4"
       fields: [
         { fieldName:"libraryId", fieldValue:"0af80de7-47ee-4a17-949f-24c96b01ac0a" }
