@@ -12,7 +12,11 @@ This page gives a quick overview of how Jobs work in aiWARE. We will show exampl
 The process involves these steps:
 
 Step One: Authorization and Authentication (Get a Token) or use Veritone provided API Key
+
 Step Two: Choose an Engine (sample calls in GitHub repository contain launchSingleEngine job examples)
+
 Step Three: Create the Job
+
 Step Four: Poll for Status
+
 Step Five: Obtain the Results
