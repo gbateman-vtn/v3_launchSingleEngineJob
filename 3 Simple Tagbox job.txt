@@ -2,8 +2,8 @@ mutation {
   launchSingleEngineJob(
     input: {
       engineId:"d66f553d-3cef-4c5a-9b66-3e551cc48b4b"
-           #targetId: 1271005432
-      uploadUrl: "https://nirel-rt-test.s3.amazonaws.com/bill_gates_2min-11sec.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAW53RQWHX6BR5ZIGB/20201113/us-east-1/s3/aws4_request&X-Amz-Date=20201113T230133Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e1db5e20bca0d742b0f5ad8334d64f04fc9929ce7976501007890c4a51d47c6b"
+           targetId: 1271005432
+      uploadUrl: "https://nirel-rt-test.s3.amazonaws.com/bill_gates_2min-11sec.mp4"
       fields: {
         fieldName: "framesPerSecond", fieldValue: "1/2"}
       }
